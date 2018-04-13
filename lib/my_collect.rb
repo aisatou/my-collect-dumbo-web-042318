@@ -1,10 +1,11 @@
 def my_collect(array)
   n = 0
-  string = []
+  collection = [ ]
 
   while n < array.size
   result << yield(array[n])
     n += 1
   end
+end
 result
 end
